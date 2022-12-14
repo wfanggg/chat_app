@@ -1,10 +1,5 @@
 package com.example.chatapp.firebase.activities;
 
-import androidx.activity.result.ActivityResultCaller;
-import androidx.activity.result.ActivityResultLauncher;
-import androidx.activity.result.contract.ActivityResultContracts;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -16,7 +11,10 @@ import android.util.Patterns;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.chatapp.databinding.ActivitySignInBinding;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.chatapp.databinding.ActivitySignUpBinding;
 import com.example.chatapp.utilities.Constants;
 import com.example.chatapp.utilities.PreferenceManager;
