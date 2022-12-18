@@ -1,6 +1,5 @@
 package com.example.chatapp.adapters;
 
-import android.content.ClipData;
 import android.graphics.Bitmap;
 
 import android.graphics.BitmapFactory;
@@ -36,7 +35,7 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.UserViewHold
     }
 
     @Override
-    public void onBindViewHolder(@NonNull UserViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull UsersAdapter.UserViewHolder holder, int position) {
         holder.setUserData(users.get(position));
     }
 

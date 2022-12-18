@@ -18,7 +18,6 @@ import java.util.List;
 
 public class UsersActivity extends AppCompatActivity {
 
-
     private ActivityUsersBinding binding;
     private PreferenceManager preferenceManager;
 
