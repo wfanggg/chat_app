@@ -15,6 +15,7 @@ android {
         versionName "1.0"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField "String", "FIREBASE_API_KEY", "\"${System.env.FIREBASE_API_KEY}\""
     }
 
     buildTypes {
